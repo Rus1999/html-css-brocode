@@ -112,12 +112,12 @@ Nuget
 ```
 - Controller with Views
 ```markdown
-  Controllers<br>
-  ├──HomeControllers.cs<br>
+  Controllers
+  ├──HomeControllers.cs
 
-  Views<br>
-  ├── Home<br>
-  │   ├── methodname1.cshtml<br>
-  │   ├── methodname2.cshtml<br>
-  │   ├── methodname3.cshtml<br>
+  Views
+  ├── Home
+  │   ├── methodname1.cshtml
+  │   ├── methodname2.cshtml
+  │   ├── methodname3.cshtml
 ```
