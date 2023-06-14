@@ -41,7 +41,7 @@
 
 
 ## Connection String in appsettings.js
-- [FullConnectionStringDocument](https://learn.microsoft.com/en-us/dotnet/api/system.data.sqlclient.sqlconnection.connectionstring?view=dotnet-plat-ext-6.0)
+- <a href="https://learn.microsoft.com/en-us/dotnet/api/system.data.sqlclient.sqlconnection.connectionstring?view=dotnet-plat-ext-6.0" target="_blank">Full ConnectionString Document</a>
 ```javascript
   ...
   "AllowedHost": "*",
