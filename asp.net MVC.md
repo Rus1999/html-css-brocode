@@ -109,9 +109,10 @@ Nuget
     return View();
   }
   ...
+  // Directory Structor
 ```
-- Controller with Views
 ```markdown
+ 
   Controllers
   ├──HomeControllers.cs
 
@@ -121,3 +122,4 @@ Nuget
   │   ├── methodname2.cshtml
   │   ├── methodname3.cshtml
 ```
+
