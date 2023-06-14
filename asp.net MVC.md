@@ -37,7 +37,7 @@ Nuget
 
 
 ## Connection String in appsettings.js
-```json
+```javascript
   ...
   "AllowedHost": "*",
   "ConnectionStrings": {
