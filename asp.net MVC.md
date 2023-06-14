@@ -111,12 +111,13 @@ Nuget
   ...
 ```
 - Controller with Views
+```markdown
+  Controllers<br>
+  ├──HomeControllers.cs<br>
 
-Controllers<br>
-├──HomeControllers.cs<br>
-
-Views<br>
-├── Home<br>
-│   ├── methodname1.cshtml<br>
-│   ├── methodname2.cshtml<br>
-│   ├── methodname3.cshtml<br>
+  Views<br>
+  ├── Home<br>
+  │   ├── methodname1.cshtml<br>
+  │   ├── methodname2.cshtml<br>
+  │   ├── methodname3.cshtml<br>
+```
