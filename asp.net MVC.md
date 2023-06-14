@@ -111,11 +111,11 @@ Nuget
   ...
 ```
 - Controller with Views
-:flie_folder: Controllers
-|--HomeControllers.cs
+:flie_folder: Controllers<br>
+|--HomeControllers.cs<br>
 
-:file_folder: Views
-|--:file_folder: Home
-  |--methodname1.cshtml
-  |--methodname2.cshtml
-  |--methodname3.cshtml
+:file_folder: Views<br>
+|--:file_folder: Home<br>
+  |--methodname1.cshtml<br>
+  |--methodname2.cshtml<br>
+  |--methodname3.cshtml<br>
