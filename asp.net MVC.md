@@ -1,8 +1,12 @@
-Nuget
+#### Nuget
 - Must be the same version as (Dependencies > Frameworks > Microsoft.AspNetCore.App version)
 	- EntityFrameworkCore
 	- EntityFrameworkCore.Tools
 	- EntityFrameworkCore.SqlServer
+
+#### Route
+- {domainame}/{controllername}/{actionname}/{id?}
+
 
 ## Model Class
 ```c#
@@ -37,6 +41,7 @@ Nuget
 
 
 ## Connection String in appsettings.js
+- [FullConnectionStringDocument](https://learn.microsoft.com/en-us/dotnet/api/system.data.sqlclient.sqlconnection.connectionstring?view=dotnet-plat-ext-6.0)
 ```javascript
   ...
   "AllowedHost": "*",
