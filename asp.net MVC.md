@@ -43,6 +43,7 @@ Nuget
   "ConnectionStrings": {
     "connectionname": "Server=servername; Database=databasename; Trusted_Connection=True; MultipleActiveResultSets=True;"
     // if not on local change Trusted_Connection=True to User ID=username; Password=password;
+  ...
   }
 ```
 ## Add services (Dependencies Injection) in Program.cs
