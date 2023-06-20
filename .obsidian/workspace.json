@@ -8,20 +8,24 @@
         "type": "tabs",
         "children": [
           {
-            "id": "766704ba07d4cd2a",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
             "id": "3a1e3a416959c392",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "asp.net MVC.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7be51d40f2d4a727",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Git & GitHub.md",
                 "mode": "source",
                 "source": false
               }
@@ -78,8 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "1dd5c6db63e27b2c",
@@ -95,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "asp.net MVC.md",
+                "file": "Git & GitHub.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "asp.net MVC.md",
+                "file": "Git & GitHub.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "asp.net MVC.md"
+                "file": "Git & GitHub.md"
               }
             }
           }
@@ -156,8 +159,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3a1e3a416959c392",
+  "active": "7be51d40f2d4a727",
   "lastOpenFiles": [
-    "asp.net MVC.md"
+    "asp.net MVC.md",
+    "Git & GitHub.md"
   ]
 }
