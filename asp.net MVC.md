@@ -55,16 +55,15 @@
     [Key]
     public int Id { get; set; }
 
-	[Display(Name = "Full name")]
+		[Display(Name = "Full name")]
     [Required(ErrorMessage = "Please enter your name.")]
     [DataType(DataType.Text)]
     public string name { get; set; }
 
-	[Column(TypeName = "nvarchar(100)")]
-	public string address { get; set; }
+		[Column(TypeName = "nvarchar(100)")]
+		public string address { get; set; }
 
-	public DateTime Date { get; set; }
-
+		public DateTime Date { get; set; }
   }
 ```
 
