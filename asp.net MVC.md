@@ -7,6 +7,46 @@
 #### Route
 - {domainame}/{controllername}/{actionname}/{id?}
 
+### appsettings.json
+- connection strings
+- api key
+- secret key
+
+### Folder Structure
+- ProjectName
+	- Connected Services
+	- Dependencies
+		- Analyzers
+		- Frameworks
+		- Packages
+	- Properties
+		- launchSettings.json <!-- launch profile contains port -->
+	- 🕸wwwroot <!-- store static files in project (ex. css, js, images, lib, !cs) -->
+		- css
+		- js
+		- lib
+		- favicon.ico
+	- 📂Controllers <!-- interact between model and view -->
+		- 📄NameController.cs
+			- actionMethod1 <!-- return view as actionMethod1.cshtml in views>controller folder -->
+			- actionMethod2 <!-- return view as actionMethod2.cshtml in views>controller folder -->
+	- 📂Models <!--  data related, table -->
+	- 📂Views <!--  user interface -->
+		- 📂ControllerName
+			- 📄actionMethod1.cshtml
+			- 📄actionMethod2.cshtml
+	- appsettings.json <!-- connection strings, API key, secret key -->
+		- appsettings.Development.json
+		- appsettings.xxx.json
+	- program.cs <!-- running configuration -->
+
+### MVC workflow
+1. USER --request--> CONTROLLER
+2. CONTROLLER --get data--> MODEL 
+3. MODEL --send data--> CONTROLLER 
+4. CONTROLLER --get presentation--> VIEW 
+5. VIEW --send presentation--> CONTROLLER 
+6. CONTROLLER --response--> USER
 
 ## Model Class
 ```c#
@@ -117,7 +157,7 @@
   
 ```
 ```markdown
-  <!-- Directory Structor -->
+  <!-- Directory Structure -->
   Controllers
   ├──HomeControllers.cs
 
