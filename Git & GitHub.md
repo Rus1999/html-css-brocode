@@ -1,3 +1,7 @@
+### Fork & Clone
+- fork creates a completely independent copy of Git repository.
+- clone creates a linked copy that will continue to synchronize with the target repository.
+
 ### config username and email
 ```shell
 # Config
@@ -90,10 +94,36 @@ git checkout -b <new-branch>
 git checkout <branchname>
 
 # checkout remote branch
-# first fetch all contentes of the branch
+# first fetch all contents of the branch
 git fetch --all
 # then checkout <remotebranch>
 git checkout <remote-branch>
+```
+
+### merge
+```shell
+# before merge check HEAD is pointing to the correct merge-receiving branch.
+# checkout the main branch that want to be merged into
+git checkout <branchname>
+
+# pull the latest remote commits
+git fetch
+# after fetch use git pull to ensure the branch has latest updates
+git pull
+
+# merge feature to currently checkout branch
+git merge <feature-branchname>
+
+# merge feature to currently checkout branch and keep all the history
+git merge --no-ff <feature-branchname>
+
+# conflict
+# check what file are conflict
+git status
+
+# <<<<<<< receiving branch
+# >>>>>>> merging branch
+
 ```
 
 

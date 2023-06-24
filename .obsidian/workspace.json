@@ -20,12 +20,24 @@
             }
           },
           {
-            "id": "7be51d40f2d4a727",
+            "id": "faa87c7816f3e496",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Git & GitHub.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7be51d40f2d4a727",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "asp.net MVC.md",
                 "mode": "source",
                 "source": false
               }
@@ -159,9 +171,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7be51d40f2d4a727",
+  "active": "faa87c7816f3e496",
   "lastOpenFiles": [
     "asp.net MVC.md",
-    "Git & GitHub.md"
+    "Git & GitHub.md",
+    "C Sharp.md"
   ]
 }
