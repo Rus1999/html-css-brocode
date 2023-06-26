@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git & GitHub.md",
+                "file": "C Sharp.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "1dd5c6db63e27b2c",
@@ -110,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git & GitHub.md",
+                "file": "C Sharp.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git & GitHub.md",
+                "file": "C Sharp.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git & GitHub.md"
+                "file": "C Sharp.md"
               }
             }
           }
@@ -174,7 +175,7 @@
   "active": "faa87c7816f3e496",
   "lastOpenFiles": [
     "asp.net MVC.md",
-    "Git & GitHub.md",
-    "C Sharp.md"
+    "C Sharp.md",
+    "Git & GitHub.md"
   ]
 }

@@ -196,7 +196,7 @@ public IActionResult methodname3()
 // controller overloading
 [HttpPost]
 // the name will called by form action: actionname
-[HttpPost, Actionname["actionname"]]
+[HttpPost, ActionName("actionname")]
 [ValidateAntiForgeryToken]
 ...
   
