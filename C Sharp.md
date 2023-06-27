@@ -84,5 +84,7 @@ condition ? consequent /* true */ :
 | int | 100 | int num1 = 7; |
 | string | "Text" | string firstName = "Rus"; |
 | ref | value of num1 | ref int refnum1 = ref num1; |
-### Logic Comparison
-|
+
+### Mathematical operators
+| Symbol | Usecase |
+|-|-|
