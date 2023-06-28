@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "fc503f524b96fddb",
+        "id": "13e93aa1ab1874c2",
         "type": "tabs",
         "children": [
           {
-            "id": "3a1e3a416959c392",
+            "id": "c473e2ae24ecec92",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "1dd5c6db63e27b2c",
@@ -147,11 +146,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3a1e3a416959c392",
+  "active": "bf324aad5968f5a7",
   "lastOpenFiles": [
-    "asp.net MVC.md",
     "HTML.md",
-    "C Sharp.md",
-    "Git & GitHub.md"
+    "Common Knowledge.md",
+    "Git & GitHub.md",
+    "markdown-cheat-sheet.md",
+    "Unconfirmed 234979.crdownload",
+    "asp.net MVC.md",
+    "C Sharp.md"
   ]
 }
