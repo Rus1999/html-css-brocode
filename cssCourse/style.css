@@ -1,0 +1,7 @@
+li:not(.this) {
+  background: black;
+  color: white;
+}
+p {
+  font-weight: 500;
+}
