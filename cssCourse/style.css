@@ -1,7 +1,180 @@
+#grow {
+  display: flex;
+}
+
+#grow > div {
+  border: 2px solid black;
+  background-color: aquamarine;
+  width: 50px;
+  height: 100px;
+}
+
+#grow > :nth-child(1) {
+  flex-grow: 0;
+}
+
+#grow > :nth-child(2) {
+  flex-grow: 1;
+}
+
+#grow > :nth-child(3) {
+  flex-grow: 5;
+}
+
+
+#shrink {
+  display: flex;
+}
+
+#shrink > div {
+  border: 2px solid black;
+  background-color: aquamarine;
+  width: 200px;
+  height: 100px;
+}
+
+#shrink > :nth-child(1n) {
+  flex-shrink: 0;
+}
+
+#shrink > :nth-child(2) {
+  flex-shrink: 1;
+}
+
+#flexcolumnjustcen {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  height: 500px;
+  border: 10px solid blanchedalmond;
+}
+
+#flexcolumnjustcen > div {
+  border: 2px solid black;
+  background-color: plum;
+  height: 100px;
+  width: 100px;
+}
+
+#flexcolumnjustcen > div:nth-child(2) {
+  align-self: flex-start;
+}
+
+#flexcolumnjustcen > div:nth-child(3) {
+  align-self: center;
+}
+
+#flexwrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#flexwrap > div {
+  width: 100px;
+  height: 100px;
+  background-color: lightsalmon;
+  border: 2px dashed black;
+}
+
+#flexwrapreverse {
+  display: flex;
+  flex-wrap: wrap-reverse;
+}
+
+#flexwrapreverse > div {
+  width: 100px;
+  height: 100px;
+  background-color: lightsalmon;
+  border: 2px dashed black;
+}
+
+#flexdirectionrow {
+  display: flex;
+  flex-direction: row;
+}
+
+#flexdirectionrow > div {
+  width: 100px;
+  height: 100px;
+  background-color: greenyellow;
+  border: 2px double black;
+}
+
+#flexdirectionrowreverse {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+#flexdirectionrowreverse > div {
+  width: 100px;
+  height: 100px;
+  background-color: greenyellow;
+  border: 2px double black;
+}
+
+#flexdirectioncolumn {
+  display: flex;
+  flex-direction: column;
+}
+
+#flexdirectioncolumn > div {
+  width: 100px;
+  height: 100px;
+  background-color: indianred;
+  color: white;
+  border: 2px dashed black;
+}
+
+#flexdirectioncolumnreverse {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+#flexdirectioncolumnreverse > div {
+  width: 100px;
+  height: 100px;
+  background-color: indianred;
+  color: white;
+  border: 2px dashed black;
+}
+
+#overflowclip {
+  border: 2px solid violet;
+  height: 100px;
+  width: 100px;
+  color: black;
+  margin-bottom: 125px;
+  overflow: clip;
+  overflow-clip-margin: 10px;
+}
+
+#overflow {
+  border: 2px solid blueviolet;
+  height: 100px;
+  width: 100px;
+  color: black;
+  margin-bottom: 125px;
+  overflow-x: hidden;
+}
+
+#clearfix {
+  border: 2px solid indianred;
+  overflow: auto;
+}
+
+#img1 {
+  float: left;
+  padding: 5px;
+}
+
 li:not(.this) {
-  background: black;
+  background: #000000;
   color: white;
 }
 p {
   font-weight: 500;
+}
+
+body {
+  background-color: #dddddd;
 }
