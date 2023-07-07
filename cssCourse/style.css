@@ -1,3 +1,103 @@
+#repeatinglineargradient {
+  height: 200px;
+  background-image: repeating-linear-gradient(pink, blue 10%, violet 25%);
+}
+
+#backgroundimgrepeatround {
+  height: 100vh;
+  width: 100vw;
+  background-image: url(./images/rosesmall.png);
+  background-repeat: round;
+}
+
+#backgroundimgrepeatspace {
+  height: 100vh;
+  width: 100vw;
+  background-image: url(./images/rosesmall.png);
+  background-repeat: space;
+}
+
+#angtoleft {
+  background-image: linear-gradient(270deg, purple, blue, pink);
+  height: 100px;
+}
+
+#lineartobotright {
+  background-image: linear-gradient(to bottom right, purple, blue, pink);
+  height: 100px;
+}
+
+#linearleftright {
+  background-image: linear-gradient(to right, purple, blue, pink);
+  height: 100px;
+}
+
+#lineartopbot {
+  background-image: linear-gradient(purple,blue, pink);
+  height: 100px;
+}
+
+body {
+  background-image: url(https://img.freepik.com/free-photo/aerial-view-container-cargo-ship-sea_335224-720.jpg?w=1380&t=st=1688702279~exp=1688702879~hmac=ad6cbb0ddc5eb0b4217f896a6642f2865911ce39e7c26478e42561ca229d76ff);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+
+}
+
+#box {
+  width: 150px;
+  height: 150px;
+  background: lightgreen;
+  position: relative;
+  border: 10px solid blue;
+  left: 50px;
+  top: 50px;
+}
+
+#box::before {
+  background: red;
+  content: 'border';
+  display: block;
+  position: absolute;
+  color: white;
+  top: -30px;
+  left: -30px;
+  right: -30px;
+  bottom: -30px;
+  z-index: -1;
+}
+
+#box::after {
+  background: gray;
+  content: 'margin';
+  color: white;
+  display: block;
+  position: absolute;
+  top: -50px;
+  left: -50px;
+  right: -50px;
+  bottom: -50px;
+  z-index: -2;
+}
+
+#boxsizing {
+  box-sizing: border-box;
+  height: 200px;
+  width: 200px;
+  border: 2px solid black;
+  padding: 20px;
+  background: black;
+
+  color: white;
+}
+
+#descendant p {
+  background-color: black;
+  color: white;
+}
+
 #sticky {
   border: 2px solid pink;
   color: pink;
