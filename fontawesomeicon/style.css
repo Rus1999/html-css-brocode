@@ -1,0 +1,59 @@
+body {
+  background-image: linear-gradient(
+    270deg, rgb(255, 227, 255), rgb(255, 173, 187)
+  );
+}
+
+.icons > a {
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.icons {
+  text-align: center;
+}
+
+.fa-solid.fa-hippo.fa-3x {
+  color: lavender;
+}
+.fa-solid.fa-hippo.fa-3x:hover {
+  color: rgb(255, 255, 255);
+}
+
+.fa-solid.fa-ghost.fa-3x {
+  color: darkslategray;
+}
+.fa-solid.fa-ghost.fa-3x:hover {
+  color: rgb(101, 148, 148);
+}
+
+.fa-solid.fa-user-secret.fa-3x {
+  color: rgb(0, 0, 0);
+}
+.fa-solid.fa-user-secret.fa-3x:hover {
+  color: rgb(87, 87, 87);
+}
+
+
+.fa-solid.fa-robot.fa-3x {
+  color: lightblue;
+}
+.fa-solid.fa-robot.fa-3x:hover {
+  color: rgb(233, 246, 250);
+}
+
+
+.fa-solid.fa-dragon.fa-3x {
+  color: red;
+}
+.fa-solid.fa-dragon.fa-3x:hover {
+  color: rgb(248, 92, 92);
+}
+
+.fa-solid.fa-otter.fa-3x {
+  color: brown;
+}
+.fa-solid.fa-otter.fa-3x:hover {
+  color: rgb(212, 96, 96);
+}
+

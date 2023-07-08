@@ -1,0 +1,60 @@
+div {
+  width: 200px;
+  height: 200px;
+  border: 2px solid indianred;
+  background-color: rgb(218, 124, 124);
+  text-align: center;
+  animation-name: rotateXYZ;
+  animation-duration: 4s;
+  animation-timing-function: steps(4500, start);
+  animation-iteration-count: infinite;
+  font-size: 5rem;
+}
+
+@keyframes slideLeft{
+  from{
+    translate: 300% 0;
+  }
+}
+
+@keyframes slideRight {
+  to{
+    translate: 300% 0;
+  }
+}
+
+@keyframes slideUp {
+  from{
+    translate: 0 300%;
+  }
+}
+
+@keyframes slideDown {
+  to{
+    translate: 0 300%;
+  }
+}
+
+@keyframes rotateX{
+  100%{
+    rotate: x 360deg;
+  }
+}
+
+@keyframes rotateY{
+  100%{
+    rotate: y 360deg;
+  }
+}
+
+@keyframes rotateZ{
+  50%{
+    rotate: 360deg;
+  }
+}
+
+@keyframes rotateXYZ {
+  100%{
+    rotate: 1 1 1 360deg;
+  }
+}
